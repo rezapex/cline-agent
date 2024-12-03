@@ -123,3 +123,28 @@ To contribute to the project, start by exploring [open issues](https://github.co
 ## License
 
 [Apache 2.0 © 2024 Cline Bot Inc.](./LICENSE)
+
+## JetBrains Extension
+
+### Local Development Instructions
+
+1. Clone the repository _(Requires [git-lfs](https://git-lfs.com/))_:
+    ```bash
+    git clone https://github.com/cline/cline.git
+    ```
+2. Open the project in your JetBrains IDE.
+3. Install the necessary dependencies for the extension and webview-gui:
+    ```bash
+    npm run install:all
+    ```
+4. Build the project:
+    ```bash
+    npm run build
+    ```
+5. Launch the JetBrains IDE with the extension loaded.
+
+### Usage Instructions
+
+1. Open the command palette in your JetBrains IDE.
+2. Type "Cline: Open In New Tab" to open the extension as a tab in your editor.
+3. Use the extension as described in the main documentation above.

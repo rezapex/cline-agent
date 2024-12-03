@@ -1,0 +1,30 @@
+{
+    "name": "cline-jetbrains",
+    "version": "1.0.0",
+    "description": "Cline JetBrains Extension",
+    "main": "src/jetbrains/extension.ts",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "lint": "eslint . --ext .ts",
+        "format": "prettier --write ."
+    },
+    "keywords": [
+        "cline",
+        "jetbrains",
+        "extension"
+    ],
+    "author": "Cline Bot Inc.",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.26.0",
+        "axios": "^1.7.4",
+        "p-wait-for": "^5.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+        "eslint": "^8.0.0",
+        "prettier": "^3.0.0"
+    }
+}
